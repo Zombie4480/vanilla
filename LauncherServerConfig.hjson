@@ -1,0 +1,30 @@
+{
+    configVersion: 0
+    projectID: bc21417d-fd0d-421c-988c-0aca34dfe2eb
+    projectName: "VanillaExpo"
+    lang: ru
+    branch: stable
+    env: dev
+    mirrors: []
+    auth:
+    {
+        type: reject
+    }
+    api:
+    {
+        host: 0.0.0.0
+        port: 1370
+        useSSL: false
+        ssl:
+        {
+            cert: /path/to/cert.pem
+            key: /path/to/key.pem
+        }
+        disableListing: false
+        hideListing: false
+        injector:
+        {
+            skinDomains: []
+        }
+    }
+}
